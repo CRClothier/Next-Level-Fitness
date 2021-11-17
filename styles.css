@@ -1,0 +1,28 @@
+.desktop {
+  display: none;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+main {
+  color: #ec5242;
+}
+
+p {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.box {
+  border: solid 2px #fff;
+  padding: 0.7em;
+}
+
+.classes {
+  color: #272a31;
+}
