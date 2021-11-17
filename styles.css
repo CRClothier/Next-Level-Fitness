@@ -4,14 +4,86 @@
 
 body {
   background-color: #f5f5f5;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 0;
+}
+
+header nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.menu {
+  margin-left: 3vw;;
+}
+
+.logo {
+  height: 8vh;
 }
 
 main {
   color: #ec5242;
 }
 
+.hero {
+  background-image: url(images/mobile-bg.svg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 13vh;
+}
+
+h1 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 13vw;
+  width: 67%;
+  line-height: 0.9em;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background-image: url(images/title-bg.png);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 p {
   color: #272a31;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+section {
+  padding: 3vw;
+}
+
+.bold {
+  color: #555;
+  font-family: 'Heebo', sans-serif;;
+  font-size: 3vh;
+  font-weight: 900;
+}
+
+.dark {
+  background-color: #272a31;
+}
+
+.facilities {
+  background-image: url(images/cross-pattern-2.svg);
+}
+
+.dark h2 {
+  color: #fff;
+}
+
+.dark p {
+  color: #fff;
+}
+
+.dark hr {
+  border-top: #ec5242;
+  border-color: #ec5242;
 }
 
 .orange {
@@ -19,10 +91,92 @@ p {
 }
 
 .box {
+  background-color: #f5f5f5;
   border: solid 2px #fff;
   padding: 0.7em;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.card {
+  background-color: #d3d3d322;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.card img{
+  width: 10vw;
+}
+
+.card h3 {
+  width: 37vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.signup {
+  color: #fff;
+  display: block;
+  background-color: #ec5242;
+  width: 70%;
+  padding: 1em;
+  text-decoration: none;
+  text-align: center;
+  margin: 3em auto 3em auto;
 }
 
 .classes {
   color: #272a31;
+}
+
+h2 {
+  color: #272a31;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 hr {
+  border-top: solid 1px #ec5242;
+  background-color: #ec5242;
+  width: 10%;
+}
+
+.class-cards {
+  display: flex;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logos img {
+  height: 5vh;
+  margin-left: 5vw;
+  margin-bottom: 5vw;;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer p {
+  color: #555;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.copyright {
+  font-weight: 900;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

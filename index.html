@@ -1,84 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Nanum+Gothic&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Next Level Fitness - Homepage</title>
 </head>
+
 <body>
   <header>
     <nav>
       <div class="mobile">
-        <img src="images/ic_menu.svg" alt="hamburger">
+        <img src="images/ic_menu.svg" alt="hamburger" class="menu">
       </div>
+      <img src="images/Next-Level.svg" alt="logo" class="logo">
       <div class="desktop">
         <img src="" alt="logo">
         <ul>
           <li>Home</li>
           <li>About</li>
+          <li>Classes</li>
+          <li>Sign Up</li>
         </ul>
       </div>
     </nav>
   </header>
   <main>
-    <section>
-      <p class="orange">"Hello Sharing world"</p>
+    <section class="hero">
+      <p class="orange">"Your health is our business"</p>
       <h1>Next Level Fitness</h1>
       <div>
         <p class="box">A joyful celebration in beleiving the value of openness and sharing,
-           creating a positive change with people from over 80 countries is taking 
-           place in October in Korea</p>
+          creating a positive change with people from over 80 countries is taking
+          place in October in Korea</p>
       </div>
-      <p>10.15.2020 - 16</p>
-      <p>@ National Museum of Korea</p>
+      <p class="bold">Now Re-opened</p>
+      <p>We have re-opened after the pandemic with all safety protocols in place</p>
     </section>
-    <section>
-      <h2>Main Program
+    <section class="dark facilities">
+      <h2>Our Facilities
         <hr>
       </h2>
       <div>
-        <article>
-          <img src="" alt="">
+        <article class="card">
+          <img src="images/gym_icon-2.svg" alt="dumbells">
           <h3>Gym</h3>
           <p>With our state of the art cardio and weights section you can be sure to get a great workout.</p>
         </article>
-        <article>
-          <img src="" alt="">
+        <article class="card">
+          <img src="images/pool-icon.svg" alt="swimming pool">
           <h3>Pool</h3>
           <p>Our olympic size pool is heated to the ideal temperature for swimming or relaxing.</p>
         </article>
-        <article>
-          <img src="" alt="">
+        <article class="card">
+          <img src="images/tennis-icon-2.svg" alt="tennis raquet">
           <h3>Tennis</h3>
           <p>Play tennis with your friends and family in our indoor, astroturf courts, year round.</p>
         </article>
-        <article>
-          <img src="" alt="">
+        <article class="card">
+          <img src="images/spa-icon.svg" alt="sauna">
           <h3>Spa</h3>
-          <p>Relax andf unwind after a heavy gy session in our jacussi and steam rooms.</p>
+          <p>Relax and unwind after a heavy gym session in our jacuzzi and steam rooms.</p>
         </article>
-        <article>
-          <img src="" alt="">
+        <article class="card">
+          <img src="images/nutri-icon.svg" alt="">
           <h3>Nutrition</h3>
           <p>Acheive results faster using our included nutritionist service to make you diet easier.</p>
         </article>
       </div>
-      <a href=""></a>
+      <a class="signup" href="">Sign Up Now</a>
     </section>
-    <section>
+    <section class="fitness-classes">
       <h2>Fitness Classes
         <hr>
       </h2>
       <div>
-        <article>
-          <img src="" alt="">
+        <article class="class-cards">
+          <img src="images/adidas-2-2.svg" alt="">
           <div>
             <h3 class="classes">Zumba</h3>
             <p class="orange">with Simon Tremain</p>
             <hr>
-            <p>dance and get excercise</p>
+            <p>dance and get excercise. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere
+              accusamus beatae vel eveniet earum debitis! Sint doloribus, praesentium iure, quo voluptas perspiciatis
+              nobis perferendis consectetur natus unde animi laborum.</p>
           </div>
         </article>
         <article>
@@ -92,25 +106,26 @@
         </article>
       </div>
     </section>
-    <section>
-      <h2>Prtners
+    <section class="dark">
+      <h2>Partners
         <hr>
       </h2>
-      <div>
-        <img src="" alt="mozilla">
-        <img src="" alt="google">
-        <img src="" alt="naver">
-        <img src="" alt="daumkakoo">
-        <img src="" alt="airbnb">
+      <div class="logos">
+        <img src="images/dropbox.svg" alt="dropbox logo">
+        <img src="images/adidas-2-2.svg" alt="nike logo">
+        <img src="images/microsoft.svg" alt="microsoft logo">
+        <img src="images/adidas.svg" alt="adidad logo">
+        <img src="images/google.svg" alt="google logo">
       </div>
     </section>
-    <footer>
-      <img src="" alt="logo">
-      <div>
-        <p>copyright</p>
-        <p>more copyright</p>
-      </div>
-    </footer>
   </main>
+  <footer>
+    <img class="logo" src="images/Next-Level.svg" alt="logo">
+    <div>
+      <p class="copyright">Next Level Fitness 2021</p>
+      <p>All rights reserved</p>
+    </div>
+  </footer>
 </body>
+
 </html>
