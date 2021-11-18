@@ -57,6 +57,12 @@ main {
   border-color: #d3d3d3;
 }
 
+p {
+  color: #272a31;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
 footer p {
   color: #555;
   font-size: 0.8em;
@@ -80,12 +86,6 @@ h1 {
 .about h1 {
   background-color: #ec5242;
   background-image: none;
-}
-
-p {
-  color: #272a31;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
 }
 
 .email {
