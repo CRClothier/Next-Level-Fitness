@@ -34,6 +34,19 @@ main {
   padding-bottom: 13vh;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+.about .box {
+  background-color: #fff;
+  border-color: #d3d3d3;
+}
+
 h1 {
   font-family: 'Heebo', sans-serif;
   font-size: 13vw;
@@ -41,17 +54,82 @@ h1 {
   line-height: 0.9em;
   margin-top: 1vh;
   margin-bottom: 1vh;
+  background-color: #ec5242;
   background-image: url(images/title-bg.png);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  color: #ec524255;
+}
+
+.about h1 {
+  background-color: #ec5242;
+  background-image: none;
 }
 
 p {
   color: #272a31;
   margin-top: 1vh;
   margin-bottom: 1vh;
+}
+
+.email {
+  color: #272a31;
+  font-weight: bolder;
+}
+
+.branding {
+  background-color: #fff;
+  text-align: center;
+}
+
+.branding img {
+  border: solid 2px #f5f5f5;
+  margin: 5vh;
+}
+
+.branches {
+  text-align: center;
+  padding: 10vw;
+}
+
+.branches h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2em;
+  line-height: 0;
+}
+
+.container p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.branch-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.overlay {
+  color: #fff;
+  background-color: #ec5242bb;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section {
@@ -131,7 +209,7 @@ section {
   color: #272a31;
 }
 
-h2 {
+section h2 {
   color: #272a31;
   margin-left: auto;
   margin-right: auto;
@@ -172,7 +250,7 @@ footer p {
 }
 
 .copyright {
-  font-weight: 900;
+  font-weight: bold;
 }
 
 footer div {
