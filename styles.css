@@ -1,4 +1,5 @@
-.desktop {
+.desktop,
+.desktop2 {
   display: none;
 }
 
@@ -15,7 +16,8 @@ header nav {
   justify-content: space-between;
 }
 
-img.menu {
+img.menu,
+img.menu2 {
   margin-left: 3vw;;
 }
 
@@ -138,7 +140,7 @@ section {
 
 .bold {
   color: #555;
-  font-family: 'Heebo', sans-serif;;
+  font-family: 'Heebo', sans-serif;
   font-size: 3vh;
   font-weight: 900;
 }
@@ -290,4 +292,54 @@ footer div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.popup ul {
+  height: 60%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.popup ul li {
+  text-align: center;
+  color: #ec5242;
+  font-family: 'Heebo', sans-serif;
+  font-size: 5vw;
+  transition: 1s;
+}
+
+.popup ul li:hover {
+  color: #272a31;
+}
+
+.close,
+.close2 {
+  align-self: flex-end;
+  margin-right: 5vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  
 }
