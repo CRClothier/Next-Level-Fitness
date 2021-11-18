@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/CRClothier/My-Portfolio-Website/blob/main/LICENSE) licensed.
+This project is [MIT](MIT.md) licensed.
