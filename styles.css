@@ -51,8 +51,7 @@ main {
 
 h1 {
   font-family: 'Heebo', sans-serif;
-  font-size: 13vw;
-  width: 67%;
+  font-size: 10vw;
   line-height: 0.9em;
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -141,7 +140,7 @@ section {
 .bold {
   color: #555;
   font-family: 'Heebo', sans-serif;
-  font-size: 3vh;
+  font-size: 5vw;
   font-weight: 900;
 }
 
@@ -341,5 +340,120 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  
+  section {
+    padding: 8vw 15vw;
+  }
+
+  .tagline {
+    font-size: 3vw;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  .bold {
+    font-size: 3vw;
+  }
+
+  .desktop {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  .logo {
+    height: 4em;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5vw;
+  }
+
+  .sign {
+    border: 3px solid #ec5242;
+    padding: 0.7em;
+  }
+
+  .facilities div {
+    display: flex;
+    width: unset;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .card {
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    flex-shrink: 1;
+    width: 13vw;
+  }
+
+  .card img {
+    width: 4vw;
+  }
+
+  .card h3 {
+    width: unset;
+  }
+
+  .card p {
+    width: unset;
+  }
+
+  .card:hover {
+    border: 1px solid #fff;
+  }
+
+  .signup {
+    background-color: #ec524200;
+    text-decoration: underline;
+    margin-bottom: 0;;
+  }
+
+  .lessons {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .fitness-classes {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  .class-cards {
+    gap: 1.5vw;
+    text-align: justify;
+  }
+
+  .class-cards img {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .partners {
+    padding: 5vh;
+  }
+
+  .branch-container {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
