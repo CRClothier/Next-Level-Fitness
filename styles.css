@@ -176,6 +176,11 @@ section {
   margin-bottom: 3vh;
 }
 
+.fitness-classes {
+  background-color: #fff;
+  padding: 5vw;
+}
+
 .card {
   background-color: #d3d3d322;
   display: flex;
@@ -224,6 +229,21 @@ h2 hr {
 
 .class-cards {
   display: flex;
+  gap: 5vw;
+}
+
+.class-cards img {
+  width: 25vw;
+  height: 25vw;
+}
+
+h3.classes {
+  margin-top: 0;
+  margin-bottom: 0;;
+}
+
+.class-cards p {
+  font-size: 0.9em;
 }
 
 .logos {
