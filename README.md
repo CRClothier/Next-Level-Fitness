@@ -10,11 +10,11 @@ The fitness classes offered by the gym are populated dynamically from an array o
 
 - HTML
 - CSS
--javascript
+- Javascript
 
 ## Live Demo
 
-[Next Level English](https://crclothier.github.io/Next-Level-English/)
+[Next Level English](https://crclothier.github.io/Next-Level-Fitness/)
 
 ## Getting Started
 
