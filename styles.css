@@ -243,7 +243,20 @@ h3.classes {
 }
 
 .class-cards p {
-  font-size: 0.9em;
+  font-size: 0.8em;
+}
+
+.class-cards hr {
+  width: 4vw;
+  margin-left: 0;
+}
+
+.lessons {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3em;
 }
 
 .logos {
