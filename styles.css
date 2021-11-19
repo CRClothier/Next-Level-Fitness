@@ -1,0 +1,461 @@
+.desktop,
+.desktop2 {
+  display: none;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 0;
+}
+
+header nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.menu,
+img.menu2 {
+  margin-left: 3vw;
+}
+
+.logo {
+  height: 8vh;
+}
+
+main {
+  color: #ec5242;
+}
+
+.hero {
+  background-image: url(images/mobile-bg.svg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 13vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+.box {
+  background-color: #f5f5f5;
+  border: solid 2px #fff;
+  padding: 0.7em;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.about .box {
+  background-color: #fff;
+  border-color: #d3d3d3;
+}
+
+p {
+  color: #272a31;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+footer p {
+  color: #555;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 10vw;
+  line-height: 0.9em;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background-color: #ec5242;
+  background-image: url(images/title-bg.png);
+  background-size: cover;
+  background-clip: text; /* stylelint-disable-line csstree/validator */
+  -webkit-background-clip: text;
+  color: #ec524255;
+}
+
+.about h1 {
+  background-color: #ec5242;
+  background-image: none;
+}
+
+.email {
+  color: #272a31;
+  font-weight: bolder;
+}
+
+.branding {
+  background-color: #fff;
+  text-align: center;
+}
+
+.branding img {
+  border: solid 2px #f5f5f5;
+  margin: 5vh;
+}
+
+.branches {
+  text-align: center;
+  padding: 10vw;
+}
+
+.branches h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2em;
+  line-height: 0;
+}
+
+.container p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.branch-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.overlay {
+  color: #fff;
+  background-color: #ec5242bb;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  padding: 3vw;
+}
+
+.bold {
+  color: #555;
+  font-family: 'Heebo', sans-serif;
+  font-size: 5vw;
+  font-weight: 900;
+}
+
+.dark {
+  background-color: #272a31;
+}
+
+.facilities {
+  background-image: url(images/cross-pattern-2.svg);
+}
+
+section h2 {
+  color: #272a31;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.dark h2 {
+  color: #fff;
+}
+
+.dark p {
+  color: #fff;
+}
+
+hr {
+  border-top: solid 1px #ec5242;
+  background-color: #ec5242;
+  width: 10%;
+  margin-bottom: 2em;
+}
+
+.dark hr {
+  border-top: #ec5242;
+  border-color: #ec5242;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.fitness-classes {
+  background-color: #fff;
+  padding: 5vw;
+}
+
+.card {
+  background-color: #d3d3d322;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.card img {
+  width: 10vw;
+}
+
+.card h3 {
+  width: 37vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.signup {
+  color: #fff;
+  display: block;
+  background-color: #ec5242;
+  width: 70%;
+  padding: 1em;
+  text-decoration: none;
+  text-align: center;
+  margin: 3em auto 3em auto;
+}
+
+.classes {
+  color: #272a31;
+}
+
+.class-cards {
+  display: flex;
+  gap: 5vw;
+}
+
+.class-cards img {
+  width: 25vw;
+  height: 25vw;
+}
+
+h3.classes {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.class-cards p {
+  font-size: 0.8em;
+}
+
+.class-cards hr {
+  width: 4vw;
+  margin-left: 0;
+}
+
+.lessons {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3em;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logos img {
+  height: 5vh;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.popup ul {
+  height: 60%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.popup ul li {
+  text-align: center;
+  color: #ec5242;
+  font-family: 'Heebo', sans-serif;
+  font-size: 5vw;
+  transition: 1s;
+}
+
+.popup ul li:hover {
+  color: #272a31;
+}
+
+.close,
+.close2 {
+  align-self: flex-end;
+  margin-right: 5vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 8vw 15vw;
+  }
+
+  .tagline {
+    font-size: 3vw;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  .bold {
+    font-size: 3vw;
+  }
+
+  .desktop {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  .logo {
+    height: 4em;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5vw;
+  }
+
+  .sign {
+    border: 3px solid #ec5242;
+    padding: 0.7em;
+  }
+
+  .facilities div {
+    display: flex;
+    width: unset;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .card {
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    flex-shrink: 1;
+    width: 13vw;
+  }
+
+  .card img {
+    width: 4vw;
+  }
+
+  .card h3 {
+    width: unset;
+  }
+
+  .card p {
+    width: unset;
+  }
+
+  .card:hover {
+    border: 1px solid #fff;
+  }
+
+  .signup {
+    background-color: #ec524200;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+
+  .lessons {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .fitness-classes {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+
+  .class-cards {
+    gap: 1.5vw;
+    text-align: justify;
+  }
+
+  .class-cards img {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .partners {
+    padding: 5vh;
+  }
+
+  .branch-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
